@@ -1,0 +1,139 @@
+* {
+    padding: 2px;
+    margin: 2px
+}
+
+body {
+    font-family: sans-serif;
+    /* border: 1px solid #a7d7f9;
+    border-right-width: 0; */
+    margin-top: -1px;
+}
+
+nav li {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    right: 905px;
+}
+
+nav {
+    text-align: right;
+    background-image: linear-gradient(to bottom,rgba(167,215,249,0) 0,#f3f3f3 100%);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+
+}
+
+img {
+    /* display: inline-block; */
+    height: 300px;
+    width: 300px;
+    float: right;
+}
+
+.image {
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    display: inline-block;
+    position: relative;
+    font-size: 88%;
+    /* left: 1160px; */
+    /* flex: content; */
+}
+
+.small {
+    font-size: 80%;
+}
+
+.container {
+
+    float: left;
+    position: relative;
+    width: 1170px;
+    font-size: 0.900em;
+    /* font-size: 100%; */
+    font-family: sans-serif;
+    line-height: 1.6;
+
+}
+
+.image p {
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    height: 185px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    position: relative;
+    top: -248px;
+    font-size: 95%;
+    /* float: left; */
+
+
+}
+
+.box li {
+    list-style: none;
+}
+
+.box1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0645ad;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.education {
+    /* top: 300px; */
+    bottom: unset;
+}
+
+.division {
+    height: 0px;
+}
+
+.image2 img {
+    height: 200px;
+    width: 200px;
+    float: right;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+}
+
+.edu {
+    font-size: 0.900em;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+h2 {
+    font-weight: normal;
+    font-family: "Linux Libertine", Georgia, Times, serif;
+}
+
+hr {
+    margin: 0%;
+    padding: 0%;
+}
+
+footer {
+    position: relative;
+    top: 75px;
+    font-size: 85%;
+    background-image: linear-gradient(to bottom,rgba(167,215,249,0) 0,#f3f3f3 100%);
+    background-color: #f8f9fa;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 0px;
+}
